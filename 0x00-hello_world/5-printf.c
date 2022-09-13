@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  * main - Prints a text
  *
- *
- *
- * Return: Always 0 (Success)
- *
+ * Return: Alway 0 (successful)
  */
 
 int main(void)

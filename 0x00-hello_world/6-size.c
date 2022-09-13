@@ -1,13 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - prints the size of various types on the computer it is compiled and run on*
  *
- * main - Prints the sizeof many var types
- *
- *
- *
- * Return: Always 0 (Success)
- *
+ * Return: Always 0 (Successful)
  */
 
 int main(void)
