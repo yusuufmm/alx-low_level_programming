@@ -6,12 +6,17 @@
  *
  * Return: To the value of void..
  */
+
 void print_square(int size)
 {
 	int i;
 	int j;
+
 	i = 0;
+
+
 	if (size <= 0)
+
 	{
 		_putchar('\n');
 	}
