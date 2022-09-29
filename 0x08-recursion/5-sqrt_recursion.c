@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 int find_sqrt(int num, int root);
 int _sqrt_recursion(int n);
@@ -40,10 +42,11 @@ int find_sqrt(int num, int root)
  */
 
 int _sqrt_recursion(int n)
-
 {
 
-	int root = 0;
+
+	int root;
+	root = 0;
 
 	if (n < 0)
 
@@ -52,6 +55,5 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 
 		return (1);
-
 }
 

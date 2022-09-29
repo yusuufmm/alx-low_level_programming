@@ -1,6 +1,28 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int is_divisible(int num, int div);
+
+int is_prime_number(int n);
+
+int strlen_no_wilds(char *str);
+
+void iterate_wild(char **wildstr);
+
+char *postfix_match(char *str, char *postfix);
+
+int wildcmp(char *s1, char *s2);
+
+int find_strlen(char *s);
+
+int check_palindrome(char *s, int len, int index);
+
+int is_palindrome(char *s);
+
+int find_sqrt(int num, int root);
+
+int _sqrt_recursion(int n);
+
 int _putchar(char c);
 
 void _puts_recursion(char *s);
